@@ -10,9 +10,26 @@
         "production": "mix --production"
     },
     "devDependencies": {
+        "@types/lodash.debounce": "^4.0.6",
         "axios": "^0.21",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.4.1",
+        "@inertiajs/inertia": "^0.10.1",
+        "@inertiajs/inertia-vue3": "^0.5.2",
+        "@tailwindcss/typography": "^0.4.1",
+        "@types/lodash": "^4.14.172",
+        "@types/prismjs": "^1.16.6",
+        "@vue/compiler-sfc": "^3.2.9",
+        "lodash.debounce": "^4.0.8",
+        "prismjs": "^1.24.1",
+        "tailwindcss": "^2.2.9",
+        "ts-loader": "^9.2.5",
+        "typescript": "^4.4.2",
+        "vue": "^3.2.9",
+        "vue-loader": "^16.5.0"
     }
 }

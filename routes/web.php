@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\DocsController;
+use App\Http\Controllers\DocSearchController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +15,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/_search/{query}', [DocSearchController::class, 'search']);
+Route::get('/{category?}/{page?}/{subpage?}', [DocsController::class, 'show']);
